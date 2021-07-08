@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Color Change Style </title>
+
+        <style>
+            li {
+                font-weight: bold;
+                font-size: 28px;
+            }
+
+            ul > li {
+                color: saddlebrown;
+            }
+
+            li:hover {
+                color: tan;
+            }
+
+            ol {
+                background-color: slategray;
+                width: 300px;
+                height: 400px;
+                padding: 30px;
+                margin: 10px;
+            }
+
+            ol:hover {
+                background-color: steelblue;
+            }
+
+            button {
+                background-color: wheat;
+                color: black;
+                font-size: 28px;
+            }
+
+            button:hover {
+                background-color: blueviolet;
+                color: greenyellow;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>First Item</li>
+                <ul class="ul1">
+                    <li>First Thing</li>
+                    <li>Second Thing</li>
+                    <li>Third Thing</li>
+                </ul>
+            <li>Second Item</li>
+            <li>Third Item</li>
+                <ul class="ul1">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ul>
+        </ol>
+
+        <button>Click Me</button>
+    </body>
+</html>
